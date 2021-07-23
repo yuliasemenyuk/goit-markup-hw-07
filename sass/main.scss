@@ -1,1 +1,19 @@
-@import './utils/vars.scss';
+@import './utils/vars';
+@import './utils/visually-hidden';
+@import './base/reset';
+@import './base/container';
+@import './base/common';
+@import './components/logo';
+@import './components/section-titles';
+@import './components/soc-media-list';
+
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/features-section';
+@import './layout/directions-section';
+@import './layout/members-section';
+@import './layout/clients-section';
+@import './layout/projects-section';
+@import './layout/footer';
+@import './layout/modal';

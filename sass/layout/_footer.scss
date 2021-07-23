@@ -1,0 +1,97 @@
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--dark-background-color);
+}
+
+.address{
+    margin-top: 20px;
+    font-style:inherit;
+    line-height: 1.71;
+    color: var(--primary-white-color);
+}
+.address .list,
+.address .phone{
+    margin-top: 9px;
+}
+.address-link{
+    text-decoration: none;
+    font-style: inherit;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.address-link:hover,
+.address-link:focus{
+    color: var(--accent-color);
+}
+.footer .container{
+    display: flex;
+    align-items: baseline;
+}
+.soc-media-container{
+    margin-left: 70px;
+}
+.soc-media-title{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    line-height: 1.14;
+    color: var(--primary-white-color);
+}
+.footer-media-link{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+.footer-media-link .soc-media-icon{
+    fill: var(--primary-white-color);
+}
+/* Форма футера */
+.subscribe-form{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 93px;
+}
+.subscribe-field{
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+}
+.subscribe-label{
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+.subscribe-input{
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    width: 358px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+}
+.subscribe-button{
+    display: flex;
+    align-items: center;
+    padding-left: 29px;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    border-color: var(--accent-color);
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.icon-send{
+    margin-left: 10px;
+}
