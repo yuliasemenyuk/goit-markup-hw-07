@@ -1,5 +1,4 @@
 .logo {
-    margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 25px;
     color: #000000;
@@ -8,6 +7,9 @@
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+}
+.header__logo{
+    margin-right: 93px;
 }
 .logo-accent {
     color: var(--accent-color);
