@@ -1,4 +1,4 @@
-.soc-media-list{
+.soc-media__list{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,10 +7,10 @@
 .soc-media__item:last-child{
     margin-right: 0;
 }
-.soc-media-list__item{
+.soc-media__item{
     margin-right: 10px;
 }
-.soc-media-list__link{
+.soc-media__link{
     display: flex;
     padding: 12px;
     border-radius: 50%;
@@ -18,11 +18,11 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.soc-media-list__link:hover,
-.soc-media-list__link:focus{
+.soc-media__link:hover,
+.soc-media__link:focus{
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
-.soc-media-list__icon{
+.soc-media__icon{
     fill: currentColor;
 }

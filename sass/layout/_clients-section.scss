@@ -2,30 +2,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.clients-list li{
-    margin-right: 30px;
-}
-.clients-list li:last-child{
-    margin-right: 0;
-}
-.clients-list a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 170px;
-    height: 92px;
-    border: 1px solid var(--icon-link-color);
-    border-radius: 4px;
-    color: var(--icon-link-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.clients-list a:hover,
-.clients-list a:focus{
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-}
-.client-icon{
-    fill: currentColor;
+
+    &__item{
+        margin-right: 30px;
+    }
+    &__item:last-child{
+        margin-right: 0;
+    }
+    &__link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 92px;
+        border: 1px solid var(--icon-link-color);
+        border-radius: 4px;
+        color: var(--icon-link-color);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &__link:hover,
+    &__link:focus{
+        color: var(--accent-color);
+        border-color: var(--accent-color);
+    }
+    &__icon{
+        fill: currentColor;
+    }
 }
